@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header section-->
+    <header id="header">
+        <div class="container">
+            <nav>
+            <a class="logo"><span style="color: deeppink;">D</span>eebika P</a>
+            <ul>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+            <div class="text">
+                <h1>Hi, I'm <span style="color: deeppink;">Deebika P</span>eriyasamy</h1>
+                <!--<p>Electronics and Communication Engineer</p>-->
+                <p><i>Explore my portfolio to discover the beginnings of my professional journey and the innovative ideas I've developed.</i></p>
+            </div>
+            <div class="icons">
+                <a href="https://github.com/Deebika-P" target="_block">
+                    <img src="images/Github.webp" width="40" height="40">
+                </a>
+                <a href="https://www.linkedin.com/in/deebika-p-8b4b07268" target="_block">
+                    <img src="images/linkedin.webp" width="40" height="40">
+                </a>
+                <a href="#contact" target="_block">
+                    <img src="images/Mail.webp" width="40" height="40">
+                </a>       
+            </div>
+        </div>
+    </header>
+    <!--about section-->
+    <section id="aboutme">
+        <div class="about">
+            <h2 class="one">About Me</h2>
+            <p> Welcome! I am Deebika Periyasamy, a graduate in Electronics and Communication Engineering.
+                Through my academic journey, I have developed essential skills in technology and problem-solving.
+            </p>
+            <p>
+                I'm passionate about technology and finding innovative ways to solve real-world problems.
+                I'm dedicated to staying up-to-date with the latest trends and innovations in technology, 
+                always seeking to broaden my knowledge and skills. 
+                Currently, I am focused on building skills in software development and a commitment to continuous learning.
+                I apply my skills to deliver impactful solutions that drive growth and enhance user experiences.
+            </p>
+            <p>
+                I enjoy engaging with others to exchange ideas and perspectives, solve problems, and achieve common goals.
+                I value the diversity of perspectives that come from working with different people,
+                believing that teamwork allows us to achieve more than we could alone.
+            </p>
+            <p>
+                I'm eager to explore opportunities where I can contribute to the advancements of technology in meaningful ways.
+                If you're looking for someone who is eager to learn and enthusiastic about technology, let's connect!
+            </p>
+        </div>
+        <center>
+            <div id="resume">
+                <a href="images/Portfolio_resume.pdf" download="resume">
+                <button class="button">Download Resume</button></a>
+            </div>
+        </center>
+    </section>
+    <!--skills section-->
+    <section id="skills">
+        <h2 class="two">Skills</h2>
+        <div>
+        <h3 class="three">Technical Skills</h3>
+        <div class="sskill">
+        <div class="skill1">
+            <h4 class="sh">C</h4>
+            <img src="images/c.png" height="50px" width="50px">
+            <p>Proficient in C programming with a focus on implementing efficient algorithms and optimizing code.</p>
+        </div>
+        <div class="skill1">
+            <h4 class="sh">PYTHON</h4>
+            <img src="images/python.png" height="50px" width="50px">
+            <p>Familiar with python fundamentals including variables, loops, functions and basic data structures.</p>
+        </div>
+        <div class="skill1">
+            <h4 class="sh">HTML AND CSS</h4>
+            <img src="images/html and css.png" height="50px" width="50px">
+            <p>Skilled in HTML and CSS, experienced in designing and styling user-friendly web pages.</p>
+        </div>
+        </div>
+        <h3 class="three">Soft Skills</h3>
+        <div class="sskill">
+        <div class="skill1">
+            <h4 class="sh">Team Work</h4>
+            <img src="images/team.jpg" height="50px" width="50px">
+            <p>Strong team player with effective communication and collaboration skills, dedicated to achieve common goals.</p>
+        </div>
+        <div class="skill1">
+            <h4 class="sh">Time Management</h4>
+            <img src="images/time.jpg" height="50px" width="50px">
+            <p>Effective time manager skilled in planning and executing tasks to meet deadlines effectively.</p>
+        </div>
+        <div class="skill1">
+            <h4 class="sh">Self-Motivator</h4>
+            <img src="images/self.png" height="50px" width="50px">
+            <p>Consistently self-motivated, goal-driven individual with a proactive approach to learning and growth.</p>
+        </div>
+        </div>
+    </section>
+    <!--projects section-->
+    <section id="project">
+        <div class="hpro">
+        <h2 class="hproject">Project</h2>
+        <div>
+            <h4 style="padding-bottom: 1%;color:yellowgreen ;">Web Development : Creating a Landing Page!</h4>
+            <p>I designed a landing page for plant shop, focusing on creating an engaging and user-friently experience.<br>
+                It aimed to provide essential information about the shop, showcase its products, 
+                facilitate online shopping, and offer multiple ways for customers to get in touch.<br>
+                Implemented Skills : HTML and CSS
+            </p>
+            <video width="500" height="320" controls><source src="images/codsoft task1.mp4"></video>
+        </div>
+        </div>
+    </section>
+    <!--contact section-->
+    <div class="foot">
+    <section id="contact">
+        <center>
+        <h2 class="con">Contact Me</h2>
+        <form onsubmit="myfunc(event)">
+            <table>
+                <tr class="row">
+                    <td class="col">Name</td>
+                    <td><input type="text"placeholder="Enter your Name" id="name" required></td>
+                </tr>
+                <tr class="row">
+                    <td class="col">Email</td>
+                    <td><input type="email"placeholder="Enter your E-Mail" id="email" required></td>
+                </tr>
+                <tr class="row">
+                    <td class="col">Phone Number</td>
+                    <td><input type="number"placeholder="Enter your Phone number" id="number"></td>
+                </tr>
+                <tr class="row">
+                    <td class="col">Message</td>
+                    <td><textarea type="text" cols="30" rows="4" id="msg" placeholder="Type your msg"></textarea></td>
+                </tr>
+                <tr class="r">
+                    <td class="cc"><button type="Reset" class="c">Reset</button></td>
+                    <td><button type="Submit" class="csend">Send</button></td>
+                </tr>
+            </table>
+        </form>
+        </center>
+    </section>
+    <!--footer section-->
+    <footer class="footer">
+        <center>
+        <nav>
+            <ul>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">FAQ</a></li>
+            <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+            <p class="footp">@<span style="color: deeppink;">Deebika P</span>eriyasamy | All rights reserved</p>
+        </center>
+        <div class="icons">
+            <a href="https://github.com/Deebika-P" target="_block">
+                <img src="images/Github.webp" width="40" height="40">
+            </a>
+            <a href="https://www.linkedin.com/in/deebika-p-8b4b07268" target="_block">
+                <img src="images/linkedin.webp" width="40" height="40">
+            </a>
+            <a href="#contact" target="_block">
+                <img src="images/Mail.webp" width="40" height="40">
+            </a>       
+        </div>
+    </footer>
+    </div>
+
+
+
+    <script type="text/javascript">
+        function myfunc(event)
+        {
+            event.preventDefault();
+            var name=document.getElementById("name").value;
+            var email=document.getElementById("email").value;
+            var number=document.getElementById("number").value;
+            var msg=document.getElementById("msg").value;
+            localStorage.setItem('is_name',name);
+            localStorage.setItem('is_email',email);
+            localStorage.setItem('is_number',number);
+            localStorage.setItem('is_msg',msg);
+        }
+    </script>
+</body>
+</html>
